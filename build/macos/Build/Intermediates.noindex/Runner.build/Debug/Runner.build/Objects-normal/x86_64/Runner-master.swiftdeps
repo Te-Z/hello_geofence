@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "79aef02e90101e4374d32f07dca42413333317180c201b33b648567cfb3a4aac"
+build_start_time: [1664274298, 914670944]
+build_end_time: [1664274308, 304661989]
+inputs:
+  "/Users/terence/Documents/perso/hello_geofence/hello_geofence/macos/Flutter/GeneratedPluginRegistrant.swift": [1664274249, 342814445]
+  "/Users/terence/Documents/perso/hello_geofence/hello_geofence/macos/Runner/AppDelegate.swift": [1631263727, 554167747]
+  "/Users/terence/Documents/perso/hello_geofence/hello_geofence/macos/Runner/MainFlutterWindow.swift": [1631263727, 559173107]

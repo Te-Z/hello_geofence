@@ -1,0 +1,318 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hello_geofence"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:11:5-81
+11-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:11:22-78
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:12:5-68
+12-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:12:22-65
+13    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+13-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:13:5-79
+13-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.GET_TASKS" />
+14-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:14:5-68
+14-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:14:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:4:5-78
+15-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:4:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:5:5-75
+16-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:5:22-73
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:6:5-84
+17-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:6:22-82
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:7:5-80
+18-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:7:22-78
+19    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+19-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:8:5-78
+19-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:8:22-76
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:9:5-78
+20-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:9:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:10:5-66
+21-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:10:22-64
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:11:5-76
+22-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:11:22-74
+23    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+23-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:12:5-93
+23-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:12:22-91
+24    <!--
+25    This permission overrids Android 12 restriction on starting foreground-serivces in background
+26    but the permission is available only to "priveliged" apps (EMERGENCY apps)
+27
+28    <uses-permission android:name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND" />
+29    -->
+30    <!-- device-specific permissions for DeviceSettings methods -->
+31    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
+31-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:22:5-74
+31-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:22:22-72
+32    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT" />
+32-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:23:5-96
+32-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:23:22-94
+33
+34    <uses-feature
+34-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:24:5-90
+35        android:name="android.hardware.location.gps"
+35-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:24:19-63
+36        android:required="false" />
+36-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:24:64-88
+37
+38    <application
+39        android:name="android.app.Application"
+39-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:7:9-42
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.7.0] /Users/terence/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:8:9-43
+42        android:label="hello_geofence" >
+42-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:6:9-39
+43        <activity
+43-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:9:9-29:20
+44            android:name="com.example.hello_geofence.MainActivity"
+44-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:10:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:14:13-163
+46            android:exported="true"
+46-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:11:13-36
+47            android:hardwareAccelerated="true"
+47-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:15:13-47
+48            android:launchMode="singleTop"
+48-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:12:13-43
+49            android:theme="@style/LaunchTheme"
+49-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:13:13-47
+50            android:windowSoftInputMode="adjustResize" >
+50-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:16:13-55
+51
+52            <!--
+53                 Specifies an Android theme to apply to this Activity as soon as
+54                 the Android process has started. This theme is visible to the user
+55                 while the Flutter UI initializes. After that, this theme continues
+56                 to determine the Window background behind the Flutter UI.
+57            -->
+58            <meta-data
+58-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:21:13-24:17
+59                android:name="io.flutter.embedding.android.NormalTheme"
+59-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:22:15-70
+60                android:resource="@style/NormalTheme" />
+60-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:23:15-52
+61
+62            <intent-filter>
+62-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:25:13-28:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:26:17-68
+63-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:26:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:27:17-76
+65-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:27:27-74
+66            </intent-filter>
+67        </activity>
+68        <!--
+69             Don't delete the meta-data below.
+70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+71        -->
+72        <meta-data
+72-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:32:9-34:33
+73            android:name="flutterEmbedding"
+73-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:33:13-44
+74            android:value="2" />
+74-->/Users/terence/Documents/perso/hello_geofence/hello_geofence/android/app/src/main/AndroidManifest.xml:34:13-30
+75
+76        <uses-library
+76-->[androidx.window:window:1.0.0-beta04] /Users/terence/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+77            android:name="androidx.window.extensions"
+77-->[androidx.window:window:1.0.0-beta04] /Users/terence/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+78            android:required="false" />
+78-->[androidx.window:window:1.0.0-beta04] /Users/terence/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+79        <uses-library
+79-->[androidx.window:window:1.0.0-beta04] /Users/terence/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+80            android:name="androidx.window.sidecar"
+80-->[androidx.window:window:1.0.0-beta04] /Users/terence/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0-beta04] /Users/terence/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+82
+83        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+83-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:17:9-92
+83-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:17:19-89
+84
+85        <service
+85-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:19:9-22:72
+86            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+86-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:20:13-80
+87            android:exported="true"
+87-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:21:13-36
+88            android:permission="android.permission.BIND_JOB_SERVICE" />
+88-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:22:13-69
+89
+90        <receiver
+90-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:24:9-31:20
+91            android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver"
+91-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:25:13-77
+92            android:exported="false" >
+92-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:26:13-37
+93            <intent-filter>
+93-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:27:13-30:29
+94                <action android:name="android.intent.action.BOOT_COMPLETED" />
+94-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:28:17-79
+94-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:28:25-76
+95                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+95-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:29:17-84
+95-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:29:25-81
+96            </intent-filter>
+97        </receiver>
+98
+99        <activity
+99-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/terence/.gradle/caches/transforms-3/62579df1a196dfe4f9111446d8f94896/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:12:9-16:59
+100            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+100-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/terence/.gradle/caches/transforms-3/62579df1a196dfe4f9111446d8f94896/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:13:13-83
+101            android:excludeFromRecents="true"
+101-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/terence/.gradle/caches/transforms-3/62579df1a196dfe4f9111446d8f94896/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:14:13-46
+102            android:exported="false"
+102-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/terence/.gradle/caches/transforms-3/62579df1a196dfe4f9111446d8f94896/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:15:13-37
+103            android:theme="@style/AppTheme.Transparent" />
+103-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/terence/.gradle/caches/transforms-3/62579df1a196dfe4f9111446d8f94896/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:16:13-56
+104        <activity
+104-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:26:9-224
+105            android:name="com.transistorsoft.locationmanager.activity.TSLocationManagerActivity"
+105-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:26:19-103
+106            android:excludeFromRecents="true"
+106-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:26:104-137
+107            android:launchMode="singleInstance"
+107-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:26:138-173
+108            android:theme="@style/TSLocationManagerActivity" />
+108-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:26:174-222
+109
+110        <service
+110-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:27:9-134
+111            android:name="com.transistorsoft.locationmanager.service.TrackingService"
+111-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:27:18-91
+112            android:foregroundServiceType="location" />
+112-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:27:92-132
+113        <service
+113-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:28:9-141
+114            android:name="com.transistorsoft.locationmanager.service.LocationRequestService"
+114-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:28:18-98
+115            android:foregroundServiceType="location" />
+115-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:28:99-139
+116        <service android:name="com.transistorsoft.locationmanager.service.HeartbeatService" />
+116-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:29:9-94
+116-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:29:18-92
+117        <service android:name="com.transistorsoft.locationmanager.service.ActivityRecognitionService" />
+117-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:30:9-104
+117-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:30:18-102
+118        <service android:name="com.transistorsoft.locationmanager.service.GeofencingService" />
+118-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:31:9-95
+118-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:31:18-93
+119        <service android:name="com.transistorsoft.locationmanager.service.BackgroundTaskService" />
+119-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:32:9-99
+119-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:32:18-97
+120
+121        <receiver
+121-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:33:9-127
+122            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver"
+122-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:33:19-100
+123            android:exported="false" />
+123-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:33:101-125
+124
+125        <service android:name="com.transistorsoft.locationmanager.scheduler.ScheduleService" />
+125-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:34:9-95
+125-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:34:18-93
+126        <service
+126-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:35:9-155
+127            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleJobService"
+127-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:35:18-96
+128            android:permission="android.permission.BIND_JOB_SERVICE" />
+128-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:35:97-153
+129
+130        <receiver
+130-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:36:9-41:20
+131            android:name="com.transistorsoft.locationmanager.BootReceiver"
+131-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:36:19-81
+132            android:enabled="true"
+132-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:36:82-104
+133            android:exported="false"
+133-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:36:105-129
+134            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+134-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:36:130-192
+135            <intent-filter>
+135-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:27:13-30:29
+136                <action android:name="android.intent.action.BOOT_COMPLETED" />
+136-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:28:17-79
+136-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:28:25-76
+137                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+137-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:29:17-84
+137-->[com.transistorsoft:tsbackgroundfetch:0.5.5] /Users/terence/.gradle/caches/transforms-3/d42d90694d0f0b00cd4e04e04d19f683/transformed/jetified-tsbackgroundfetch-0.5.5/AndroidManifest.xml:29:25-81
+138            </intent-filter>
+139        </receiver>
+140
+141        <provider
+141-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:42:9-44:20
+142            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
+142-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:42:19-89
+143            android:authorities="com.example.hello_geofence.tslocationmanager.fileprovider"
+143-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:42:90-159
+144            android:exported="false"
+144-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:42:160-184
+145            android:grantUriPermissions="true" >
+145-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:42:185-219
+146            <meta-data
+146-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:43:13-137
+147                android:name="android.support.FILE_PROVIDER_PATHS"
+147-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:43:24-74
+148                android:resource="@xml/tslocationmanager_file_provider_path" />
+148-->[com.transistorsoft:tslocationmanager:3.2.2] /Users/terence/.gradle/caches/transforms-3/58f2f5a308825150a74f97df3db86d15/transformed/jetified-tslocationmanager-3.2.2/AndroidManifest.xml:43:75-135
+149        </provider>
+150
+151        <activity
+151-->[com.google.android.gms:play-services-base:18.0.1] /Users/terence/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+152-->[com.google.android.gms:play-services-base:18.0.1] /Users/terence/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-base:18.0.1] /Users/terence/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-base:18.0.1] /Users/terence/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:18.0.0] /Users/terence/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:18.0.0] /Users/terence/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:18.0.0] /Users/terence/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+159
+160        <provider
+160-->[androidx.emoji2:emoji2:1.0.0] /Users/terence/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+161            android:name="androidx.startup.InitializationProvider"
+161-->[androidx.emoji2:emoji2:1.0.0] /Users/terence/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+162            android:authorities="com.example.hello_geofence.androidx-startup"
+162-->[androidx.emoji2:emoji2:1.0.0] /Users/terence/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+163            android:exported="false" >
+163-->[androidx.emoji2:emoji2:1.0.0] /Users/terence/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+164            <meta-data
+164-->[androidx.emoji2:emoji2:1.0.0] /Users/terence/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+165                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+165-->[androidx.emoji2:emoji2:1.0.0] /Users/terence/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+166                android:value="androidx.startup" />
+166-->[androidx.emoji2:emoji2:1.0.0] /Users/terence/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+167            <meta-data
+167-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/terence/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+168                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+168-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/terence/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+169                android:value="androidx.startup" />
+169-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/terence/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+170        </provider>
+171    </application>
+172
+173</manifest>

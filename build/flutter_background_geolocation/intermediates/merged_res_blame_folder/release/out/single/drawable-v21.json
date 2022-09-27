@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/terence/Documents/perso/hello_geofence/hello_geofence/build/flutter_background_geolocation/intermediates/merged_res/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/terence/.gradle/caches/transforms-3/14b221489d9eb05e0e9620522e8c9e12/transformed/appcompat-1.4.1/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/terence/Documents/perso/hello_geofence/hello_geofence/build/flutter_background_geolocation/intermediates/merged_res/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/terence/.gradle/caches/transforms-3/14b221489d9eb05e0e9620522e8c9e12/transformed/appcompat-1.4.1/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/terence/Documents/perso/hello_geofence/hello_geofence/build/flutter_background_geolocation/intermediates/merged_res/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/terence/.gradle/caches/transforms-3/14b221489d9eb05e0e9620522e8c9e12/transformed/appcompat-1.4.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/terence/Documents/perso/hello_geofence/hello_geofence/build/flutter_background_geolocation/intermediates/merged_res/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/terence/.gradle/caches/transforms-3/14b221489d9eb05e0e9620522e8c9e12/transformed/appcompat-1.4.1/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/terence/Documents/perso/hello_geofence/hello_geofence/build/flutter_background_geolocation/intermediates/merged_res/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/terence/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/terence/Documents/perso/hello_geofence/hello_geofence/build/flutter_background_geolocation/intermediates/merged_res/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/terence/.gradle/caches/transforms-3/14b221489d9eb05e0e9620522e8c9e12/transformed/appcompat-1.4.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]
