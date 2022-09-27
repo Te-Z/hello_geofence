@@ -1,16 +1,10 @@
 # hello_geofence
 
-A new Flutter project.
+A working POC of flutter_background_fetch's geofence.
 
-## Getting Started
+This will allow you to define a list of geofences.
+The events are then displayed in a ListView.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Mon projet](https://user-images.githubusercontent.com/31937920/192558805-f9fa0154-d156-4e40-8aad-609115affffb.png)
+![Mon projet (1)](https://user-images.githubusercontent.com/31937920/192558931-e9216e98-a244-4647-b471-a1cc9a650250.png)
